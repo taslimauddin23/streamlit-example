@@ -1,3 +1,4 @@
+pip install seo-keyword-research-tool
 import streamlit as st
 from SeoKeywordResearch import SeoKeywordResearch
 
@@ -6,7 +7,7 @@ st.title('SEO Keyword Research Tool')
 
 # User inputs
 query = st.text_input('Enter your query', 'horse racing results')
-api_key = st.text_input('Enter your API key', '')
+api_key = st.text_input('Enter your API key', 'd5f2ec8438d02a5985bc7156cbe93abe1452e33dcdffa3ef5a264bcee5440f86')
 lang = st.text_input('Language', 'en')
 country = st.text_input('Country', 'us')
 domain = st.text_input('Domain', 'google.com')
