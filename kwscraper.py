@@ -1,4 +1,3 @@
-pip install seo-keyword-research-tool
 import streamlit as st
 from SeoKeywordResearch import SeoKeywordResearch
 
